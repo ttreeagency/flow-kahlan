@@ -19,6 +19,8 @@ use Ttree\FlowKahlan\Env;
 Env::bootstrap($this);
 ```
 
+You can get sample spec form this [gist](https://gist.github.com/dfeyer/1213b93b7f1e38107dd4ad8dc79e7736).
+
 Run
 ---
 
