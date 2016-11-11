@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "typo3/flow": "3.3.*",
+    "typo3/flow": "3.3.* || dev-master",
     "kahlan/kahlan": "^3.0",
     "josegonzalez/dotenv": "^2.0",
     "phpunit/phpunit" : "~5.4"
@@ -19,6 +19,5 @@
     "psr-4": {
       "Ttree\\FlowKahlan\\": "src"
     }
-  },
-  "minimum-stability": "stable"
+  }
 }
