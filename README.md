@@ -1,6 +1,13 @@
 Flow context for kahlan specs/tests - allows nice BDD way of developing Flow app
 ================================================================================
 
+__this package is under heavy developement and not stable currently__
+
+Install
+-------
+
+    composer require --dev ttree/flow-kahlan dev-master
+    
 Usage
 -----
 
