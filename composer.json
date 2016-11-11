@@ -1,0 +1,24 @@
+{
+  "name": "ttreeagency/flow-kahlan",
+  "description": "Flow specs suite for testing Flow Framework applications",
+  "keywords": ["flow", "flow framework", "testing", "bdd", "kahlan", "spec", "tdd"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dominique Feyer",
+      "email": "dfeyer@ttree.ch"
+    }
+  ],
+  "require": {
+    "typo3/flow": "3.3.*",
+    "kahlan/kahlan": "^3.0",
+    "josegonzalez/dotenv": "^2.0",
+    "phpunit/phpunit" : "~5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ttree\\FlowKahlan\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
+}
