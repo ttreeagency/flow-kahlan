@@ -1,5 +1,5 @@
 {
-  "name": "ttreeagency/flow-kahlan",
+  "name": "ttree/flow-kahlan",
   "description": "Flow specs suite for testing Flow Framework applications",
   "keywords": ["flow", "flow framework", "testing", "bdd", "kahlan", "spec", "tdd"],
   "license": "MIT",
