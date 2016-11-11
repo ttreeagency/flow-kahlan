@@ -25,10 +25,10 @@ class Env
      */
     public static function bootstrap(Kahlan $kahlan, $base_path = null)
     {
-        self::$rootPath = $_SERVER['FLOW_ROOTPATH'] = $base_path ?: realpath(__DIR__ . '/../../../');
-        self::$webPath = $_SERVER['FLOW_WEBPATH'] = $base_path ?: realpath(__DIR__ . '/../../../Web/');
+        self::$rootPath = $_SERVER['FLOW_ROOTPATH'] = $base_path ?: realpath(__DIR__ . '/../../../../../');
+        self::$webPath = $_SERVER['FLOW_WEBPATH'] = $base_path ?: realpath(__DIR__ . '/../../../../../Web/');
 
-        spl_autoload_register('TYPO3\Flow\Build\Env::loadClassForTesting');
+        spl_autoload_register('Ttree\FlowKahlan\Env::loadClassForTesting');
 
         /*
         |--------------------------------------------------------------------------
@@ -86,7 +86,7 @@ class Env
             return;
         }
 
-        foreach (new \DirectoryIterator(__DIR__ . '/../../../Packages/') as $fileInfo) {
+        foreach (new \DirectoryIterator(__DIR__ . '/../../../../../Packages/') as $fileInfo) {
             if (!$fileInfo->isDir() || $fileInfo->isDot() || $fileInfo->getFilename() === 'Libraries') {
                 continue;
             }
