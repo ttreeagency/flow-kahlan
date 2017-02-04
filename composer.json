@@ -1,7 +1,7 @@
 {
   "name": "ttree/flow-kahlan",
   "description": "Flow specs suite for testing Flow Framework applications",
-  "keywords": ["flow", "flow framework", "testing", "bdd", "kahlan", "spec", "tdd"],
+  "keywords": ["flow", "flow framework", "neos", "neos project", "testing", "bdd", "kahlan", "spec", "tdd"],
   "license": "MIT",
   "authors": [
     {
@@ -10,10 +10,9 @@
     }
   ],
   "require": {
-    "typo3/flow": "3.3.* || dev-master",
+    "typo3/flow": "^3.3",
     "kahlan/kahlan": "^3.0",
-    "josegonzalez/dotenv": "^2.0",
-    "phpunit/phpunit" : "~5.4"
+    "josegonzalez/dotenv": "^2.0"
   },
   "autoload": {
     "psr-4": {
